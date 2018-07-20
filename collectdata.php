@@ -1,8 +1,8 @@
 <?php
 $dbhost = 'localhost';
-$dbuser = 'root';
-$dbpass = '11223344';
-$dbname = 'test';
+$dbuser = 'root'; // user root
+$dbpass = ' '; //mysql password
+$dbname = 'test'; // database name
 
 $mood = $_GET['mood'];
 $conn = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
