@@ -7,8 +7,8 @@
 
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid     = "avonguest";//"virginmedia6466309"; //
-const char* password = "Av0n648$"; //"jnsjhxms"; //
+const char* ssid     = "";
+const char* password = "";
 
 WiFiClient WiFiclient;
 MQTTClient client;
